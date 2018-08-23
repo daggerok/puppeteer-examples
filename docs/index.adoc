@@ -1,0 +1,45 @@
+ifdef::backend-html5[]
+= {root-project-name} ({project-version}) image:https://travis-ci.org/daggerok/{root-project-name}.svg?branch=master["Build Status", link={github-url}]
+endif::backend-html5[]
+ifndef::backend-html5[]
+= {root-project-name} ({project-version})
+endif::backend-html5[]
+Maksim Kostromin <daggerok@gmail.com>
+{docdatetime}
+:docinfo:
+:doctype: book
+:toc: left
+:toclevels: 4
+:numbered:
+:icons: font
+:hide-uri-scheme:
+:revnumber: {project-version}
+:example-caption!:
+:source-highlighter: highlightjs
+
+== Introduction
+
+include::../README.adoc[tags=content]
+
+== Implementation
+
+=== Prepare project under test
+
+[source,bash]
+----
+git clone https://github.com/daggerok/puppeteer-examples /tmp/puppeteer-examples
+cp -Rf /tmp/puppeteer-examples/01-getting-started ./project-under-test
+webstorm ./project-under-test/
+----
+
+== Links
+
+- link:https://github.com/GoogleChrome/puppeteer[GitHub: GoogleChrome/puppeteer]
+ifdef::backend-html5[- link:./index.pdf[Documentation in PFD format]]
+- link:{github-url}[GitHub repo]
+- link:https://daggerok.github.io/{root-project-name}[GitHub pages]
+////
+- link:{gitlab-url}[GitLab repo]
+- link:https://daggerok.gitlab.io/{root-project-name}[GitLab pages]
+- link:{bitbucket-url}[BitBucket repo]
+////

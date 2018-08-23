@@ -10,15 +10,15 @@ const debugIsEnabled = () => (
     // ignoreHTTPSErrors: bool, // skip any https errors which may popup during tests
   });
 
-describe('on page load', () => {
+describe('on page load', async () => {
   test('h1 loads correctly', async () => {
     let browser = await puppeteer.launch(debugIsEnabled());
     let page = await browser.newPage();
 
     await page.emulate({
       viewport: {
-        width: 500,
-        height: 2400,
+        width: 1024,
+        height: 756,
       },
       userAgent: '',
     });

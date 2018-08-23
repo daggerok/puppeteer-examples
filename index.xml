@@ -4,7 +4,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>puppeteer-examples (0.0.1)</title>
-<date>2018-08-23 18:02:12 UTC</date>
+<date>2018-08-23 18:43:25 UTC</date>
 <author>
 <personname>
 <firstname>Maksim</firstname>
@@ -16,7 +16,7 @@
 <revhistory>
 <revision>
 <revnumber>0.0.1</revnumber>
-<date>2018-08-23 18:02:12 UTC</date>
+<date>2018-08-23 18:43:25 UTC</date>
 <authorinitials>MK</authorinitials>
 </revision>
 </revhistory>
@@ -40,6 +40,9 @@ webstorm ./project-under-test/</programlisting>
 <itemizedlist>
 <listitem>
 <simpara><link xl:href="https://github.com/GoogleChrome/puppeteer">GitHub: GoogleChrome/puppeteer</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://coursehunters.net/course/end-to-end-testirovanie-s-google-s-puppeteer-i-jest">coursehunters.net: End to End Тестирование с Google&#8217;s Puppeteer и Jest</link></simpara>
 </listitem>
 <listitem>
 <simpara><link xl:href="https://github.com/daggerok/puppeteer-examples">GitHub repo</link></simpara>

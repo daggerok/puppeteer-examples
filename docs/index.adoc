@@ -35,6 +35,7 @@ webstorm ./project-under-test/
 == Links
 
 - link:https://github.com/GoogleChrome/puppeteer[GitHub: GoogleChrome/puppeteer]
+- link:https://coursehunters.net/course/end-to-end-testirovanie-s-google-s-puppeteer-i-jest[coursehunters.net: End to End Тестирование с Google's Puppeteer и Jest]
 ifdef::backend-html5[- link:./index.pdf[Documentation in PFD format]]
 - link:{github-url}[GitHub repo]
 - link:https://daggerok.github.io/{root-project-name}[GitHub pages]

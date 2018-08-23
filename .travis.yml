@@ -53,8 +53,10 @@ script:
 #
 - cd ${root}/01-getting-started
 - yarn -i
+- (yarn start || true) &
 - yarn test
 - yarn debug
+- killall -9 node || true
 - yarn predeploy
 cache:
   yarn: true
